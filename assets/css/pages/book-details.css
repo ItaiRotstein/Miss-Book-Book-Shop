@@ -1,0 +1,58 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    align-items: center;
+}
+
+.book-details >* {
+    margin: 1em auto;
+}
+
+.book-details .details-container {
+    display: flex;
+}
+
+.book-details h2 {
+    font-family: lato-bold;
+}
+
+.book-details h3 {
+    margin: 0.5em auto;
+}
+
+.book-details ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+.book-details span,
+ul {
+    color: var(--clr11);
+}
+
+.book-details p {
+    margin: 0.5em auto;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.book-details .img-container {
+    position: relative;
+    max-width: 250px;
+}
+
+.sale-img-container {
+    max-width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

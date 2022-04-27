@@ -1,0 +1,26 @@
+.books-filter {
+    display: flex;
+    margin: 10px auto;
+    max-width:50%;
+    padding: 1em;
+    border-bottom: solid var(--clr1) 2px;
+}
+
+.books-filter form{
+    font-family: lato-bold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.books-filter label {
+    margin: auto 1em;
+}
+
+.books-filter button{
+    background-color: var(--clrPrimary);
+    color: white;
+    margin: auto 10px;
+}

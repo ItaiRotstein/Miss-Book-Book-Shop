@@ -1,0 +1,14 @@
+.home {
+    color: var(--clr1);
+    text-align: center;
+    background-image: url(../../img/hero.jpg);
+    margin: 0.8em;
+    padding: 2em;
+}
+
+.home h1{
+    font-family: montserrat;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.664);
+}

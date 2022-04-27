@@ -1,0 +1,26 @@
+.book-preview {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+    padding: 20px;
+    cursor: pointer;
+    background-color: var(--clr5);
+    max-width: 300px;
+    transition: background-color, 0.4s;
+}
+
+
+.book-preview:hover {
+    background-color: var(--clr6);
+}
+
+.book-preview h5 {
+    margin: 0.5em auto;
+}
+
+.book-preview h3 {
+    font-size: 1.5em;
+    font-family: lato-bold;
+}
+
+.book-preview .img-container {
+    max-width: 250px;
+}

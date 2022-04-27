@@ -1,0 +1,30 @@
+.google-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.google-search form{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.google-search button {
+    border-radius: 0;
+}
+
+.google-list {
+    list-style: none;
+    text-align: left;
+}   
+
+.google-list .list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    margin-top: 1em;
+}

@@ -1,0 +1,28 @@
+.review-add form{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr4);
+    padding: 20px;
+    border-radius: 1em;
+}
+
+.review-add form >* {
+    margin-bottom: 10px;
+}
+
+.review-add textarea {
+    resize: none;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.review button {
+    padding: 5px 9px;
+    margin: 0;
+    border-radius: 100%;
+}
